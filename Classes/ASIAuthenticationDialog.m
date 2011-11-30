@@ -136,8 +136,8 @@ static const NSUInteger kDomainSection = 1;
 	UIInterfaceOrientation o = [[UIApplication sharedApplication] statusBarOrientation];
 	CGFloat angle = 0;
 	switch (o) {
-		case UIInterfaceOrientationLandscapeLeft: angle = 90; break;
-		case UIInterfaceOrientationLandscapeRight: angle = -90; break;
+		case UIInterfaceOrientationLandscapeRight: angle = 90; break;
+		case UIInterfaceOrientationLandscapeLeft: angle = -90; break;
 		case UIInterfaceOrientationPortraitUpsideDown: angle = 180; break;
 		default: break;
 	}
